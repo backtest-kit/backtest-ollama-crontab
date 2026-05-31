@@ -46,7 +46,7 @@ The strategy reads this file at runtime to subscribe to the configured channel w
 From the repo root:
 
 ```bash
-npm start -- --backtest --ui --entry ./content/jan_2026.strategy/jan_2026.strategy.ts
+npm start -- --backtest --ui --entry ./content/jan_2026.strategy/jan_2026.strategy.ts --cache
 ```
 
 ## 🎯 What this repo demonstrates
