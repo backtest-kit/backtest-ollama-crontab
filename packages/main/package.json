@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "start": "node ./build/index.cjs",
     "build": "rollup -c",
     "auth": "dotenv -e .env -- npm start -- --session"
   },
