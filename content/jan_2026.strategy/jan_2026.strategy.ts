@@ -59,8 +59,6 @@ addStrategySchema({
       priceStopLoss: signal.stoploss,
       priceTakeProfit: signal.targets[2],
       minuteEstimatedTime: Infinity,
-      multiplier: 50,
-      isolated: true,
       note: JSON.stringify(info, null, 2),
     };
   },
